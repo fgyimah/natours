@@ -1,6 +1,6 @@
 node_modules/
 config.env
 package-lock.json
-dev-data/
+dev_data/
 public/img/tours/
 public/img/users/
