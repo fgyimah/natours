@@ -8,7 +8,9 @@ const app = express();
 
 //middleware
 app.use(express.json());
-app.use(logger('dev'));
+if (process.env.NODE_ENV === 'development') {
+  app.use(logger('dev'));
+}
 
 //serve static files
 app.use(express.static(`${__dirname}/public`));
