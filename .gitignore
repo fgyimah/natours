@@ -2,3 +2,5 @@ node_modules/
 config.env
 package-lock.json
 dev-data/
+public/img/tours/
+public/img/users/
